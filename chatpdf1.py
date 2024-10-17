@@ -97,13 +97,13 @@ def user_input_with_citations(user_question):
 
 # Main function to run the Streamlit app
 def main():
-    st.set_page_config("Chat PDF")
-    st.header("Chat with PDF using Gemini💁")
+    st.set_page_config("Quantum IQ")
+    st.header("Chat with PDF Quantum IQ ")
 
 
     with st.sidebar:
         st.title("Menu:")
-        pdf_docs = st.file_uploader("Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
+        pdf_docs = st.file_uploader("Upload your PDF Files(Multiple allowed) and Click on the Submit & Process Button", accept_multiple_files=True)
         if st.button("Submit & Process"):
              
             print("Processing PDFs...")
